@@ -1,0 +1,111 @@
+.mainContainer {
+  width: 100%;
+}
+nav{
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  box-shadow: 0 8px 8px -4px lightblue;
+}
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 64px;
+  height:70%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 5px #01FFF4;
+  background: #020118;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color:white;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+}
+
+.bio {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  font-size:14px;
+  font-weight: 800;
+  background: #01FFF4;
+  background: -webkit-linear-gradient(right, #01FFF4, #FCFF01);
+  background: -moz-linear-gradient(right, #01FFF4, #FCFF01);
+  background: linear-gradient(to left, #01FFF4, #FCFF01);
+}
+.waveButton:hover{
+  background: #01FFF4;
+  background: -webkit-linear-gradient(left, #01FFF4, #FDFF01);
+  background: -moz-linear-gradient(left, #01FFF4, #FDFF01);
+  background: linear-gradient(to right, #01FFF4, #FDFF01);
+}
+.clickButton {
+  cursor: pointer;
+  margin-top: 16px;
+  font-size:14px;
+  font-weight: 800;
+  padding: 8px;
+  margin-bottom: 3px;
+  margin-right: 30px;
+  border: 0;
+  border-radius: 5px;
+  height: 50px;
+  background: #01FFF4;
+  background: -webkit-linear-gradient(right, #01FFF4, #F66EFF);
+  background: -moz-linear-gradient(right, #01FFF4, #F66EFF);
+  background: linear-gradient(to left, #01FFF4, #F66EFF);
+}
+.clickButton:hover{
+  background: #01FFF4;
+  background: -webkit-linear-gradient(left, #01FFF4, #F66EFF);
+  background: -moz-linear-gradient(left, #01FFF4, #F66EFF);
+  background: linear-gradient(to right, #01FFF4, #F66EFF);
+}
+.connectedButton {
+  color: grey;
+  margin-top: 16px;
+  font-size:14px;
+  font-weight: 800;
+  padding: 8px;
+  margin-bottom: 3px;
+  margin-right: 30px;
+  border: 0;
+  border-radius: 5px;
+  height: 50px;
+  background: #A3FFFB;
+  background: -webkit-linear-gradient(left, #A3FFFB, #F3F3A7);
+  background: -moz-linear-gradient(left, #A3FFFB, #F3F3A7);
+  background: linear-gradient(to right, #A3FFFB, #F3F3A7);
+}
+.connectedButton:hover{
+  background: #01FFF4;
+  background: -webkit-linear-gradient(left, #01FFF4, #FDFF01);
+  background: -moz-linear-gradient(left, #01FFF4, #FDFF01);
+  background: linear-gradient(to right, #01FFF4, #FDFF01); 
+}
+
+#tweet {
+  margin-top: 16px;
+  font-size:14px;
+  height: 20px;
+  padding: 8px;
+  border: 2px solid #01FFF4;
+  border-radius: 5px;
+}
