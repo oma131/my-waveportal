@@ -70,6 +70,7 @@ const App = () => {
       }
     };
   }, );
+  
   const checkIfWalletIsConnected = async () => {
     try {
       const { ethereum } = window;
